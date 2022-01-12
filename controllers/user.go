@@ -5,7 +5,6 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-
 	"github.com/vladmihailescu/go-restful-api/models"
 	"github.com/vladmihailescu/go-restful-api/services"
 )

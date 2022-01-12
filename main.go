@@ -3,7 +3,6 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
-
 	"github.com/vladmihailescu/go-restful-api/database"
 	"github.com/vladmihailescu/go-restful-api/routes"
 )

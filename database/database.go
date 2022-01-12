@@ -3,12 +3,10 @@ package database
 import (
 	"fmt"
 
+	log "github.com/sirupsen/logrus"
+	"github.com/vladmihailescu/go-restful-api/models"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
-
-	log "github.com/sirupsen/logrus"
-
-	"github.com/vladmihailescu/go-restful-api/models"
 )
 
 var (

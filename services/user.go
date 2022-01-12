@@ -3,11 +3,10 @@ package services
 import (
 	"fmt"
 
-	"gorm.io/gorm"
-
 	"github.com/vladmihailescu/go-restful-api/database"
 	"github.com/vladmihailescu/go-restful-api/models"
 	"github.com/vladmihailescu/go-restful-api/utils"
+	"gorm.io/gorm"
 )
 
 // RegisterUser saves the user in db and returns a valid jwt

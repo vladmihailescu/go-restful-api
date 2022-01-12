@@ -2,7 +2,6 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-
 	"github.com/vladmihailescu/go-restful-api/controllers"
 	"github.com/vladmihailescu/go-restful-api/middlewares"
 )
