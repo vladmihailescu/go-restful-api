@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  go-restful-api:
+    image: go-restful-api
+    container_name: go-restful-api-container
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    restart: always
+    ports:
+      - "8080:8080"

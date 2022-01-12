@@ -6,7 +6,9 @@ This boilerplate serves as an example for the Distributed Systems laboratory and
 * JWT-based auth
 * Error handling 
 * Structured logging
+* Password hashing before storing in SQLite
 * CRUD operations on a database table
+* Docker deploy (using `docker-compose up -d`)
 
 Uses the following Go packages:
 * Web framework: [gin](https://github.com/gin-gonic/gin)
